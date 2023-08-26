@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.mainDiv {
+    min-height: 100vh;
+    background: #424267;
+    display: flex;
+    justify-content: center;
+}
+
+.subMainDiv {
+    margin-top: 12rem;
+    text-align: center;
+}
+
+.subMainDiv figure img {
+    height: 8rem;
+    width: 10rem;
+}   
+
+.subMainDiv figure figcaption {
+    color: #fff;
+    font-size: 2.2rem;
+    padding-top: 2rem;
+    text-transform: capitalize;
+}
+
+.addItems {
+    min-width: 20rem;
+}
+
+input {
+    box-shadow: none;
+    transition: all .2s linear;
+    border: 0.1rem solid #ccc;
+    outline: none;
+    padding: 2.3rem 1.5rem;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 0.4rem;
+    color: #3a3939;
+    font-size: 1.8rem;
+    height: 3.4rem;
+    line-height: 1.42857143;
+    margin-top: 2rem;
+    width: 30rem;
+    -webkit-box-shadow: inset 0 0.1rem 0.1rem rgb(0 0 0 /8%);
+    box-shadow: inset 0 0.1rem rgb(0 0 0 /8%);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+input,
+input:focus,
+input:active,
+input:active:focus {
+    border: none;
+    padding: 2.3rem 1.5rem;
+    outline: none;
+}
+
+.fa {
+    background-color: #fff;
+    background-image: none;
+    color: #414040;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-left: -2.5rem;
+    pointer-events: auto;
+    transition: color .15s linear;
+    z-index: 10;
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+   
+}
+
+.addItems .fa-edit {
+    color: #414040;
+}
+
+.fa-plus:before {
+    content: "\f067";
+    font-size: 1.5rem;
+}
+
+.fa:hover {
+    color: rgb(47, 214, 122);
+}
+
+.showItems {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.singleItem {
+    align-items: center;
+    background: #9179d8;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.7rem;
+    margin-left: 1rem;
+    padding: 1.2rem 1rem;
+    width: 30rem;
+    word-break: break-word;
+}
+
+.showItems .singleItem h1 {
+    color: #fff;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+} 
+
+.singleItem:hover {
+    background-color: white;
+    .text {
+        color: #5529dc;
+    }
+    .fa-edit {
+        color: rgb(47, 214, 122);
+    }
+    .fa-trash-alt {
+        color: rgb(232, 35, 35);
+    }
+}
+
+.todobtn {
+    display: flex;
+    justify-content: space-around;
+    width: 5rem;
+}
+
+.fa-edit {
+    margin-left: -3.5rem;
+    color: #fbfbfb;
+    cursor: pointer;
+    font-size: 2rem;
+    pointer-events: auto;
+    transition: color .15s linear;
+    z-index: 10;
+}
+
+.fa-trash-alt {
+    color: #fbfbfb;
+    cursor: pointer;
+    font-size: 2rem;
+    pointer-events: auto;
+    transition: color .15s linear;
+    z-index: 10;
+}
+
+.far {
+    font-weight: 400;
+    font-family: "Font Awesome 6 Free";
+    -webkit-font-smoothing: antialiased;
+    display: var(--fa-display,inline-block);
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+.effect03 {
+    --uismLinkDisplay: var(--smLinkDisplay,inline-flex);
+    color: #000;
+    display: var(--uismLinkDisplay);
+    outline: 1px solid #000;
+    overflow: hidden;
+    position: relative;
+    transition-duration: .4s;
+   
+}
+
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    line-height: 45px;
+    max-width: 160px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.btn:hover {
+    color: #fff;
+    background: #9179d8;
+}
+
